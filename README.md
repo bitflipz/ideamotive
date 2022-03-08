@@ -51,7 +51,7 @@ Output:
 ![sqloutput](https://github.com/janobyte/ideamotive/blob/main/scrs/sql-screen.png "sqlscr")
 
 
-## Ostatnia część wizualizacji
+## Ostatnia część (wizualizacja w GDS)
 
 [![gstudio](https://github.com/janobyte/ideamotive/blob/main/scrs/gdatastudio.png "gstudio")](https://datastudio.google.com/reporting/b843d48c-4f26-4cad-8afc-c0f79aba03b4)
 
