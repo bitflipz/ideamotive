@@ -24,8 +24,26 @@ df.reset_index(drop=True,inplace=True)
 
 df.to_csv('output.csv', index=False)
 ```
+### Część w Google Sheets
+[![gsheets](https://github.com/janobyte/ideamotive/blob/main/scrs/gsheets.png "gsheets")](https://docs.google.com/spreadsheets/d/1MuF8Nk0XEXz8HUWNhlRGLBpxmAFtQLFv5lzFEoQBIy8/edit?usp=sharing)
 
-https://docs.google.com/spreadsheets/d/1MuF8Nk0XEXz8HUWNhlRGLBpxmAFtQLFv5lzFEoQBIy8/edit?usp=sharing
+### Część SQL
+Kod:
+```sql
+select count(distinct recclass) AS 'unique class' from meteor;
+
+select avg(mass) as 'avg mass', recclass as 'class'
+from meteor
+group by recclass;
+
+select avg(mass) as 'avg mass', recclass as 'class'
+from meteor
+group by recclass
+having avg(mass)<5000
+order by avg(mass) DESC;
+```
+Output:
+![sqloutput](https://github.com/janobyte/ideamotive/blob/main/scrs/sql-screen.png "sqlscr")
 
 
 https://datastudio.google.com/reporting/b843d48c-4f26-4cad-8afc-c0f79aba03b4
