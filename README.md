@@ -1,6 +1,7 @@
 # Ideamotive - Zadanie Rekrutacyjne
 
-### Część Python (json -> csv + preparing data)
+
+## Część Python (json -> csv + preparing data)
 [![jupyter](https://github.com/janobyte/ideamotive/blob/main/scrs/jptr.png "jupyter")](https://github.com/janobyte/ideamotive/blob/main/jsontocsv.ipynb)
 
 Ta część była zerobiona w Jupyterze więć lepsze widoczność będzie jak się wejdzie w [link](https://github.com/janobyte/ideamotive/blob/main/jsontocsv.ipynb).
@@ -24,9 +25,11 @@ df.reset_index(drop=True,inplace=True)
 
 df.to_csv('output.csv', index=False)
 ```
-### Część w Google Sheets
+
+## Część w Google Sheets
 [![gsheets](https://github.com/janobyte/ideamotive/blob/main/scrs/gsheets.png "gsheets")](https://docs.google.com/spreadsheets/d/1MuF8Nk0XEXz8HUWNhlRGLBpxmAFtQLFv5lzFEoQBIy8/edit?usp=sharing)
 Link do google sheets znajduje się [tutaj](https://docs.google.com/spreadsheets/d/1MuF8Nk0XEXz8HUWNhlRGLBpxmAFtQLFv5lzFEoQBIy8/edit?usp=sharing).
+
 
 ## Część SQL
 Kod:
@@ -48,7 +51,7 @@ Output:
 ![sqloutput](https://github.com/janobyte/ideamotive/blob/main/scrs/sql-screen.png "sqlscr")
 
 
-### Ostatnia część wizualizacji
+## Ostatnia część wizualizacji
 
 [![gstudio](https://github.com/janobyte/ideamotive/blob/main/scrs/gdatastudio.png "gstudio")](https://datastudio.google.com/reporting/b843d48c-4f26-4cad-8afc-c0f79aba03b4)
 
