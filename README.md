@@ -1,5 +1,7 @@
 # Ideamotive - Zadanie Rekrutacyjne
 
+### Część Python (json -> csv + preparing data)
+![jupyter](https://github.com/janobyte/ideamotive/blob/main/scrs/jptr.png "jupyter") Ta część była zerobiona w Jupyterze więć lepsze widoczność będzie jak się wejdzie w [link](https://github.com/janobyte/ideamotive/blob/main/jsontocsv.ipynb)
 ```python
 import pandas as pd
 import requests
@@ -22,8 +24,6 @@ df.to_csv('output.csv', index=False)
 ```
 
 https://docs.google.com/spreadsheets/d/1MuF8Nk0XEXz8HUWNhlRGLBpxmAFtQLFv5lzFEoQBIy8/edit?usp=sharing
-
-
 
 
 https://datastudio.google.com/reporting/b843d48c-4f26-4cad-8afc-c0f79aba03b4
