@@ -26,8 +26,9 @@ df.to_csv('output.csv', index=False)
 ```
 ### Część w Google Sheets
 [![gsheets](https://github.com/janobyte/ideamotive/blob/main/scrs/gsheets.png "gsheets")](https://docs.google.com/spreadsheets/d/1MuF8Nk0XEXz8HUWNhlRGLBpxmAFtQLFv5lzFEoQBIy8/edit?usp=sharing)
+Link do google sheets znajduje się [tutaj](https://docs.google.com/spreadsheets/d/1MuF8Nk0XEXz8HUWNhlRGLBpxmAFtQLFv5lzFEoQBIy8/edit?usp=sharing).
 
-### Część SQL
+## Część SQL
 Kod:
 ```sql
 select count(distinct recclass) AS 'unique class' from meteor;
@@ -43,7 +44,12 @@ having avg(mass)<5000
 order by avg(mass) DESC;
 ```
 Output:
+
 ![sqloutput](https://github.com/janobyte/ideamotive/blob/main/scrs/sql-screen.png "sqlscr")
 
 
-https://datastudio.google.com/reporting/b843d48c-4f26-4cad-8afc-c0f79aba03b4
+### Ostatnia część wizualizacji
+
+[![gstudio](https://github.com/janobyte/ideamotive/blob/main/scrs/gdatastudio.png "gstudio")](https://datastudio.google.com/reporting/b843d48c-4f26-4cad-8afc-c0f79aba03b4)
+
+Link do pracy jest [tutaj](https://datastudio.google.com/reporting/b843d48c-4f26-4cad-8afc-c0f79aba03b4). Pozdrawiam!:))
