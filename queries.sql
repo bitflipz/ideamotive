@@ -1,10 +1,8 @@
 select count(distinct recclass) AS 'unique class' from meteor;
 
-
 select avg(mass) as 'avg mass', recclass as 'class'
 from meteor
 group by recclass;
-
 
 select avg(mass) as 'avg mass', recclass as 'class'
 from meteor
